@@ -11,7 +11,7 @@ const App = () => {
     <section className="flex flex-col h-screen justify-between items-center">
       <Navbar />
       <Hero />
-      < SubHero />
+      <SubHero />
       <Footer />
     </section>
   );
