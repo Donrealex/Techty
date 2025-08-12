@@ -1,9 +1,13 @@
 import React from 'react'
+import Navbar from '../components/Navbar';
 
 const Service = () => {
   return (
-    <div>Service</div>
-  )
+    <div className="flex flex-col h-screen justify-between min-w-full">
+      <Navbar />
+      
+    </div>
+  );
 }
 
 export default Service

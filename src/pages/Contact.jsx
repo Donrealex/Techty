@@ -1,7 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar';
 
-export const Contact = () => {
+const Contact = () => {
   return (
-    <div>Contact</div>
-  )
+    <div className="flex flex-col h-screen justify-between min-w-full">
+      <Navbar />
+    </div>
+  );
 }
+
+export default Contact

@@ -1,9 +1,13 @@
+import subPc from "../assets/subPc.svg" 
+import subTable from "../assets/subTable.PNG"
+import subColors from "../assets/subColors.PNG"
 export const subHeroData = [
   {
     id: 1,
     num: "01",
     head: "Collect Ideas",
     data: "Creating or improving products to meet our user needs.",
+    img: subPc,
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
@@ -11,13 +15,15 @@ export const subHeroData = [
     num: "02",
     head: "Data Analysis",
     data: "Creating or improving products to meet our user needs.",
-    content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    img : subTable,
+     content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   {
     id: 3,
     num: "03",
     head: "Analyze Product",
     data: "Creating or improving products to meet our user needs.",
-    content: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    img: subColors,
+     content: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   },
 ];
