@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#F0F8FF] h-20 w-full flex items-center justify-between p-4 md:p-14 font-space gap-10">
+    <nav className="container bg-[#F0F8FF] h-20 w-full flex items-center justify-between p-4 md:p-14 font-space gap-10">
       <div className="container flex justify-between items-center">
         <NavLink to="/">
           <img src={techtyIcon} alt="Techty Icon" />

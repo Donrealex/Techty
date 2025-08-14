@@ -7,7 +7,7 @@ const SubHero = () => {
     const [activeId, setActiveId] = useState(subHeroData[0].id);
 
   return (
-    <div className="h-screen items-center justify-center font-space">
+    <div className="container h-screen items-center justify-center font-space">
       <p className="text-5xl font-bold text-center p-10">
         Empower your business with cutting-edge
         <span className="text-[#28D08A]"> solutions. </span>

@@ -6,7 +6,7 @@ const Hero = () => {
   const printMsg = () => {};
   return (
     // error
-    <div className=" h-screen bg-[#F0F8FF] items-center justify-center font-space gap-10 h[1024px]">
+    <div className=" container h-screen bg-[#F0F8FF] items-center justify-center font-space gap-10 h[1024px]">
       {/* HERO TEXT AND IMAGE */}
       <div className="min-h-screen bg-[#F0F8FF] flex flex-col items-center justify-center font-space gap-10 px-4 py-8 overflow-x-hidden">
         {/* HERO TEXT AND IMAGE */}
