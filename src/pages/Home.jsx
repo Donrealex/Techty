@@ -5,18 +5,22 @@ import SubHero from '../components/SubHero'
 import Footer from '../components/Footer'
 import Unleash from '../components/Unleash'
 import Solution from '../components/Solution'
+import Strategy from '../components/Strategy'
+import Review from '../components/Review'
 
 const Home = () => {
   return (
     
     <div className="flex flex-col h-screen justify-between min-w-full CONTAINER">
 
-    <Navbar  /> 
+    {/* <Navbar  /> 
     <Hero />
      <SubHero />
      <Unleash />
-     <Solution />
-    <Footer />
+     <Solution /> */}
+     {/* < Strategy /> */}
+     < Review />
+    {/* <Footer /> */}
         
     </div>
   )

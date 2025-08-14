@@ -1,9 +1,12 @@
 import subPc from "../assets/subPc.svg" 
 import subTable from "../assets/subTable.PNG"
 import subColors from "../assets/subColors.PNG"
+
 import msgIcon from "../assets/msgIcon.svg"
 import circleIcon from "../assets/cicleIcon.svg"
 import timeIcon from "../assets/timeIcon.svg"
+
+import rating from "../assets/rating.svg"
 
 export const subHeroData = [
   {
@@ -46,6 +49,17 @@ export const unleashData =[
     icon: timeIcon,
     head: "24/7 Live Support",
     content: "We are ready to help you all day and our customer service are active",
-  }
-
-]
+  },
+];
+export const StrategyData = [
+  {
+    num: "99.7%",
+    head: "Customer Satisfaction",
+    icon: rating,
+  },
+  {
+    num: "4X",
+    head: "New Visitors",
+    icon: rating,
+  },
+];
