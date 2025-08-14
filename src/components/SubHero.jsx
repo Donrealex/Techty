@@ -46,6 +46,9 @@ const SubHero = () => {
         ))}
       </div>
     </div>
+    // <div className="h-screen items-center justify-center font-space bg-white">
+
+    // </div>
   );
 }
 

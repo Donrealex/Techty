@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="bg-[#F0F8FF] h-20 w-full flex items-center justify-between p-4 md:p-14 font-space gap-10">
       <div className="container flex justify-between items-center">
         <NavLink to="/">
-          <img src="/src/assets/techtyIcon.svg" alt="Techty Icon" />
+          <img src={techtyIcon} alt="Techty Icon" />
         </NavLink>
         <div className="hidden md:flex items-center justify-center gap-10">
           <NavLink
@@ -30,7 +30,7 @@ const Navbar = () => {
             Home
           </NavLink>
           <NavLink
-            to="/About"
+            to="/about"
             className={({ isActive }) =>
               isActive ? "text-[#28D08A] underline underline-offset-10 " : ""
             }
@@ -38,7 +38,7 @@ const Navbar = () => {
             About
           </NavLink>
           <NavLink
-            to="/Service"
+            to="/service"
             className={({ isActive }) =>
               isActive ? "text-[#28D08A] underline underline-offset-10 " : ""
             }
@@ -46,15 +46,15 @@ const Navbar = () => {
             Service
           </NavLink>
           <NavLink
-            to="/Blog"
+            to="/blog"
             className={({ isActive }) =>
               isActive ? "text-[#28D08A] underline underline-offset-10 " : ""
             }
           >
-            Blog{" "}
+            Blog
           </NavLink>
           <NavLink
-            to="/Contact"
+            to="/contact"
             className={({ isActive }) =>
               isActive ? "text-[#28D08A] underline underline-offset-10 " : ""
             }

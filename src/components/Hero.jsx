@@ -14,7 +14,7 @@ const Hero = () => {
           {/* Text Section */}
           <div className="flex flex-col items-center lg:items-start justify-center w-full lg:w-3/5 p-4 lg:p-12 gap-5 text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold">
-              Secure <span className="text-[#28D08A]">business</span> with
+              Secure <span className="text-[#28D08A]">business</span> <br />with
               Techty security.
             </h1>
             <p className="text-base sm:text-lg">
@@ -48,7 +48,7 @@ const Hero = () => {
         {/* Text and Logos Section */}
         <div className="p-10 text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <p className="font-bold text-2xl ">
-            Thousands of businesses use Techty
+            Thousands of<br />businesses use Techty
           </p>
 
           <div className="overflow-hidden whitespace-nowrap w-[750px] ">

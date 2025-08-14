@@ -1,6 +1,10 @@
 import subPc from "../assets/subPc.svg" 
 import subTable from "../assets/subTable.PNG"
 import subColors from "../assets/subColors.PNG"
+import msgIcon from "../assets/msgIcon.svg"
+import circleIcon from "../assets/cicleIcon.svg"
+import timeIcon from "../assets/timeIcon.svg"
+
 export const subHeroData = [
   {
     id: 1,
@@ -27,3 +31,21 @@ export const subHeroData = [
      content: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   },
 ];
+export const unleashData =[
+  {
+    icon: msgIcon,
+    head: "SEO Team  Expert",
+    content:"Creating products to meet our user needs and market demands.",
+  },
+  {
+    icon: circleIcon,
+    head: "Strategic Planning",
+    content: "Improving products to meet our user needs and market demands.",
+  },
+  {
+    icon: timeIcon,
+    head: "24/7 Live Support",
+    content: "We are ready to help you all day and our customer service are active",
+  }
+
+]
