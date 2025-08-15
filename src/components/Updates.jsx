@@ -10,7 +10,7 @@ const Updates = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4">
         {UpdatesData.map((update) => (
-          <div className="text-gray-600 bg-white rounded-lg">
+          <div className="text-gray-600 bg-white rounded-lg scale-100 hover:scale-105 transition-transform duration-500">
             <img
               src={update.img}
               alt="update icon"

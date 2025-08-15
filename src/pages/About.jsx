@@ -2,16 +2,17 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import AboutHero from '../components/AboutHero';
+import AboutFounder from '../components/AboutFounder';
+import Teams from '../components/Teams';
 
 const About = () => {
   return (
     <div className="flex flex-col h-screen justify-between min-w-full">
-      {/* <Navbar /> */}
+      <Navbar />
       <AboutHero />
-
-
-
-      {/* <Footer /> */}
+      <AboutFounder />
+      <Teams />
+      <Footer />
     </div>
   );
 }

@@ -12,6 +12,9 @@ import updatePhone from "../assets/updatePhone.svg";
 import updatePc from "../assets/updatePc.svg";
 import updateHuman from "../assets/updateHuman.svg";
 
+import hyeon from "../assets/hyeon.svg";
+import vivek from "../assets/vivek.svg";
+
 export const subHeroData = [
   {
     id: 1,
@@ -88,5 +91,28 @@ export const UpdatesData = [
     head: "Cybersecurity threats in 2023: How AI can keep you protected",
     content:
       "Let us manage your IT for you so that you can get back to doing what you do best.",
+  },
+];
+ 
+export const TeamsData = [
+  {
+    img: hyeon,
+    name: "Hyeon Vivek",
+    position: "Financial Consultant",
+  },
+  {
+    img: vivek,
+    name: "Hyeon Vivek",
+    position: "Financial Consultant",
+  },
+  {
+    img: hyeon,
+    name: "Hyeon Vivek",
+    position: "Financial Consultant",
+  },
+  {
+    img: vivek,
+    name: "Hyeon Vivek",
+    position: "Financial Consultant",
   },
 ];

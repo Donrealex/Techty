@@ -6,7 +6,7 @@ const AboutHero = () => {
 
   return (
    
-    <section className="container font-space p-4 md:p-16 max-w-6xl mx-auto bg-[#F0F8FF] rounded-lg shadow-lg  md:flex flex-col md:flex-row">
+    <section className="container font-space mx-auto bg-[#F0F8FF] py-10  md:flex flex-col md:flex-row">
       {/* The Image */}
       <div className="md:w-1/2 w-full h-64 md:h-full">
         <img
