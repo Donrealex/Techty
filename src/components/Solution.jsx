@@ -6,7 +6,7 @@ const Solution = () => {
   const printMsg = () => {};
   return (
     // RESPONSIVENES NOT PERFECT
-    <div className="container relative font-space bg-white px-4 py-10 flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto gap-10">
+    <div className="container relative font-space bg-white px-4 py-10 flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto gap-10 h-screen">
       {/* Text Section */}
       <div className="flex flex-col items-start justify-center gap-5 w-full lg:w-1/2">
         <h1 className="text-3xl md:text-4xl font-bold leading-snug">

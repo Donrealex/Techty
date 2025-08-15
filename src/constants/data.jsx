@@ -8,6 +8,10 @@ import timeIcon from "../assets/timeIcon.svg"
 
 import rating from "../assets/rating.svg"
 
+import updatePhone from "../assets/updatePhone.svg";
+import updatePc from "../assets/updatePc.svg";
+import updateHuman from "../assets/updateHuman.svg";
+
 export const subHeroData = [
   {
     id: 1,
@@ -61,5 +65,28 @@ export const StrategyData = [
     num: "4X",
     head: "New Visitors",
     icon: rating,
+  },
+];
+export const UpdatesData = [
+  {
+    img: updatePhone,
+    date: "May 30",
+    head: "5 reasons why Techty is the go-to choice for small business.",
+    content:
+      "Let us manage your IT for you so that you can get back to doing what you do best.",
+  },
+  {
+    img: updateHuman,
+    date: "May 30",
+    head: "The future is now: Explore Techty's AI-Powered tools",
+    content:
+      "Let us manage your IT for you so that you can get back to doing what you do best.",
+  },
+  {
+    img: updatePc,
+    date: "May 30",
+    head: "Cybersecurity threats in 2023: How AI can keep you protected",
+    content:
+      "Let us manage your IT for you so that you can get back to doing what you do best.",
   },
 ];
