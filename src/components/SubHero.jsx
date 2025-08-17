@@ -15,9 +15,7 @@ const SubHero = () => {
       <div className="flex flex-col md:flex-row items-center justify-center p-10 gap-8 bg-white">
         {subHeroData.map((item) => (
           <section className="flex flex-col gap-4" key={item.id}>
-            <div
-              // key={item.id}
-              onClick={() => setActiveId(item.id)}
+            <div onClick={() => setActiveId(item.id)}
               className={`flex items-start space-x-4 p-6 cursor-pointer transition-all duration-300 border-b-4
             ${
               activeId === item.id
@@ -46,9 +44,7 @@ const SubHero = () => {
         ))}
       </div>
     </div>
-    // <div className="h-screen items-center justify-center font-space bg-white">
-
-    // </div>
+    
   );
 }
 

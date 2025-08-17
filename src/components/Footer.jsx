@@ -94,12 +94,12 @@ const Footer = () => {
               placeholder="Email address"
               className="w-full px-4 py-3 pr-28 ring ring-[#F0F8FF] rounded-lg"
             />
-            <button
+            <Button
               onClick={printMsg}
               className="absolute top-1/2 right-2 -translate-y-1/2 bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D09A] transition duration-300"
             >
               Join
-            </button>
+            </Button>
           </div>
         </div>
       </div>

@@ -15,6 +15,15 @@ import updateHuman from "../assets/updateHuman.svg";
 import hyeon from "../assets/hyeon.svg";
 import vivek from "../assets/vivek.svg";
 
+import speakerIcon from "../assets/speakerIcon.svg";
+import bagIcon from "../assets/bagIcon.svg";
+import rateIcon from "../assets/rateIcon.svg";
+import pcIcon from "../assets/pcIcon.svg";
+import rightIcon from "../assets/rightIcon.svg";
+
+
+
+
 export const subHeroData = [
   {
     id: 1,
@@ -116,3 +125,35 @@ export const TeamsData = [
     position: "Financial Consultant",
   },
 ];
+export const ServiceHeroData = [
+  {
+    icon: speakerIcon,
+    head: "Online Marketing",
+    content:
+      "In the new era of technology we look in the future with certainty and pride.",
+    rightArrow: rightIcon,
+  },
+  {
+    icon: bagIcon,
+    head: "Startup Business",
+    content:
+      "In the new era of technology we look in the future with certainty and pride.",
+    rightArrow: rightIcon,
+  },
+  {
+    icon: rateIcon,
+    head: "Business Growth",
+    content:
+      "In the new era of technology we look in the future with certainty and pride.",
+    rightArrow: rightIcon,
+  },
+  {
+    icon: pcIcon,
+    head: "Development",
+    content:
+      "In the new era of technology we look in the future with certainty and pride.",
+    rightArrow: rightIcon,
+  },
+];
+
+ 
