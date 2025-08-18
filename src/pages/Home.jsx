@@ -11,21 +11,18 @@ import Updates from '../components/Updates'
 
 const Home = () => {
   return (
-    
     <div className="flex flex-col h-screen justify-between min-w-full CONTAINER">
-
-    <Navbar  /> 
-    <Hero />
-     <SubHero />
-     <Unleash />
-     <Solution />
-     < Strategy />
-     < Review />
-     < Updates />
-    <Footer />
-        
+      <Navbar style={"bg-[#F0F8FF]"} />
+      <Hero />
+      <SubHero />
+      <Unleash />
+      <Solution />
+      <Strategy />
+      <Review />
+      <Updates />
+      <Footer style={"bg-[#495460]"} />
     </div>
-  )
+  );
 }
 
 export default Home

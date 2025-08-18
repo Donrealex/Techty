@@ -10,7 +10,7 @@ const Blog = () => {
       <Navbar className="bg-white" />
       <BlogHero />
       <Articles />
-      <Footer />
+      <Footer style={"bg-[#6F7681]"} />
     </div>
   );
 }

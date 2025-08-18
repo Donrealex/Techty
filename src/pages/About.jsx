@@ -8,11 +8,11 @@ import Teams from '../components/Teams';
 const About = () => {
   return (
     <div className="flex flex-col h-screen justify-between min-w-full">
-      <Navbar />
+      <Navbar style={"bg-[#F0F8FF]"} />
       <AboutHero />
       <AboutFounder />
       <Teams />
-      <Footer />
+      <Footer style={"bg-[#495460]"} />
     </div>
   );
 }

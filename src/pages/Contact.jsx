@@ -6,9 +6,9 @@ import ContactHero from '../components/ContactHero';
 const Contact = () => {
   return (
     <div className="flex flex-col h-screen justify-between min-w-full">
-      <Navbar className="bg-white" />
+      <Navbar  />
       <ContactHero />
-      <Footer className="bg-[#6F7681]" />
+      <Footer style={"bg-[#6F7681]"} />
     </div>
   );
 }

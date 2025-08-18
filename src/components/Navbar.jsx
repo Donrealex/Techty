@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Button from "./Button.jsx";
-// import { IoMenu } from "react-icons/io5";
+
 import { IoClose } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 import { IoMenuSharp } from "react-icons/io5";
 import techtyIcon from "../assets/techtyIcon.svg"
 
-const Navbar = () => {
+const Navbar = ({style}) => {
   const printMsg = () => {};
 
   const [nav, setNav] = useState(false);
@@ -15,7 +15,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="container bg-[#F0F8FF] h-20 w-full flex items-center justify-between p-4 md:p-14 font-space gap-10">
+    <nav
+      className={`${style} container fixed z-20 h-20 w-full flex items-center justify-center p-4 md:p-14 font-space gap-10`}
+    >
       <div className="container flex justify-between items-center">
         <NavLink to="/">
           <img src={techtyIcon} alt="Techty Icon" />
@@ -72,9 +74,8 @@ const Navbar = () => {
           </Button>
         </div>
         <IoMenuSharp className="text-2xl md:hidden" onClick={handleNav} />
-      </div> 
-      
-      
+      </div>
+
       {/* Mobile menu */}
       <div
         style={{
@@ -162,7 +163,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      
     </nav>
   );
 };

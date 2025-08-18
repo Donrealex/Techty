@@ -7,10 +7,10 @@ import { IoLogoGithub } from "react-icons/io";
 import { NavLink } from 'react-router-dom';
 
 
-const Footer = () => {
+const Footer = ({style}) => {
   const printMsg = () => {};
   return (
-    <div className="container flex flex-col bg-[#495460] w-full text-white items-center justify-between font-space px-4 py-10">
+    <div className= {`${style} container flex flex-col  w-full text-white items-center justify-between font-space px-4 py-10`}>
       {/* Top Section */}
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
         <p className="font-bold text-3xl md:text-4xl">
@@ -122,6 +122,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Footer

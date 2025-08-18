@@ -8,11 +8,11 @@ import Pricing from '../components/Pricing';
 const Service = () => {
   return (
     <div className="flex flex-col h-screen justify-between min-w-full">
-      <Navbar />
+      <Navbar style={"bg-[#F0F8FF]"} />
       <ServiceHero />
       <SubHero />
       <Pricing />
-      <Footer />
+      <Footer style={"bg-[#495460]"} />
     </div>
   );
 }
