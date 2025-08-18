@@ -39,7 +39,7 @@ const Review = () => {
             <h2 className="text-sm sm:text-base font-normal text-gray-800 leading-relaxed">
               “We struggled for years to find an IT company that we could trust.
               While others would try to sell us IT solutions, we actually took
-              the time to listen to what made us unique as a business.”{" "}
+              the time to listen to what made us unique as a business.”
               {comment.body}
             </h2>
             <div className="flex items-center gap-4 mt-4">

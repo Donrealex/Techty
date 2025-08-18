@@ -12,7 +12,6 @@ const Service = () => {
       <ServiceHero />
       <SubHero />
       <Pricing />
-
       <Footer />
     </div>
   );

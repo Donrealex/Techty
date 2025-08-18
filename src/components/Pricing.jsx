@@ -5,124 +5,6 @@ import { CheckCircle, XCircle } from 'lucide-react';
 const Pricing = () => {
     const printMsg = () => {};
   return (
-    // <section className="container  font-space bg-[#F0F8FF] rounded-lg p-6 grid items-start justify-center gap-8">
-    //   <h2 className="text-4xl font-bold text-center ">
-    //     We have the best <span className="text-[#28D08A]">pricing</span>
-    //     <br /> package for you
-    //   </h2>
-    //   {/* first one */}
-    //   <div className="flex bg-white p-8 gap-6">
-    //     <div className="flex-1 py-4">
-    //       <h2 className="text-2xl font-semibold">On Demand</h2>
-    //       <p className="text-sm text-gray-500 mt-1">
-    //         Get all these features when you are using as starter.
-    //       </p>
-
-    //       <div className="flex mt-6">
-    //         <div className="space-y-6 text-gray-700">
-    //           <div className="flex  gap-2">
-    //             <CheckCircle className=" space-x-1 text-[#28D08A]" />
-    //             <span>Unlimited Projects</span>
-    //           </div>
-    //           <div className="flex  gap-2">
-    //             <CheckCircle className=" text-[#28D08A]" />
-    //             <span>Analytics dashboard</span>
-    //           </div>
-    //           <div className="flex  gap-2">
-    //             <CheckCircle className=" text-[#28D08A]" />
-    //             <span>Unlimited Projects</span>
-    //           </div>
-    //         </div>
-    //         <div className="space-y-6 pl-6 text-gray-700">
-    //           <div className="flex  gap-2">
-    //             <XCircle className="w-5 h-5 text-gray-400" />
-    //             <span>Email notifications</span>
-    //           </div>
-    //           <div className="flex  gap-2">
-    //             <XCircle className="w-5 h-5 text-gray-400" />
-    //             <span>Insights panel</span>
-    //           </div>
-    //           <div className="flex  gap-2">
-    //             <XCircle className="w-5 h-5 text-gray-400" />
-    //             <span>Share features</span>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-
-    //     <div className="bg-[#F0F8FF] rounded-lg flex flex-col items-center justify-center w-70 h-62 m-4 p-4 gap-6">
-    //       <h2 className="text-lg font-bold">Quick Solutions</h2>
-    //       <h3 className="text-6xl font-bold mt-2">
-    //         $20 <span className="text-lg font-normal">/hour</span>
-    //       </h3>
-    //       <Button
-    //         func={printMsg}
-    //         name="Hire an Expert"
-    //         style={
-    //           "bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D08A] transition duration-300"
-    //         }
-    //       >
-    //         Button
-    //       </Button>
-    //     </div>
-    //   </div>
-    //   {/* second one */}
-    //   <div className="flex bg-white p-8 gap-6">
-    //     <div className="flex-1 py-4">
-    //       <h2 className="text-2xl font-semibold">Maintenance</h2>
-    //       <p className="text-sm text-gray-500 mt-1">
-    //         Get all these features when you are using as starter.
-    //       </p>
-
-    //       <div className="flex mt-6">
-    //         <div className="space-y-6 text-gray-700">
-    //           <div className="flex  gap-2">
-    //             <CheckCircle className=" space-x-1 text-[#28D08A]" />
-    //             <span>Unlimited Projects</span>
-    //           </div>
-    //           <div className="flex  gap-2">
-    //             <CheckCircle className=" text-[#28D08A]" />
-    //             <span>Analytics dashboard</span>
-    //           </div>
-    //           <div className="flex  gap-2">
-    //             <CheckCircle className=" text-[#28D08A]" />
-    //             <span>Unlimited Projects</span>
-    //           </div>
-    //         </div>
-    //         <div className="space-y-6 pl-6 text-gray-700">
-    //           <div className="flex  gap-2">
-    //             <XCircle className="w-5 h-5 text-gray-400" />
-    //             <span>Email notifications</span>
-    //           </div>
-    //           <div className="flex  gap-2">
-    //             <XCircle className="w-5 h-5 text-gray-400" />
-    //             <span>Insights panel</span>
-    //           </div>
-    //           <div className="flex  gap-2">
-    //             <XCircle className="w-5 h-5 text-gray-400" />
-    //             <span>Share features</span>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-
-    //     <div className="bg-[#F0F8FF] rounded-lg flex flex-col items-center justify-center w-70 h-62 m-4 p-4 gap-6">
-    //       <h2 className="text-lg font-bold">Monthly Solutions</h2>
-    //       <h3 className="text-6xl font-bold mt-2">
-    //         $99<span className="text-lg font-normal">/hour</span>
-    //       </h3>
-    //       <Button
-    //         func={printMsg}
-    //         name="Hire an Expert"
-    //         style={
-    //           "bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D08A] transition duration-300"
-    //         }
-    //       >
-    //         Button
-    //       </Button>
-    //     </div>
-    //   </div>
-    // </section>
     <section className="container font-space bg-[#F0F8FF] rounded-lg p-6 grid gap-8">
       <h2 className="text-3xl sm:text-4xl font-bold text-center">
         We have the best <span className="text-[#28D08A]">pricing</span>
@@ -211,7 +93,6 @@ const Pricing = () => {
               <div className="flex gap-2 items-center">
                 <XCircle className="w-5 h-5 text-gray-400" />
                 <span>Email notifications</span>
-                          
               </div>
               <div className="flex gap-2 items-center">
                 <XCircle className="w-5 h-5 text-gray-400" />

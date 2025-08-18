@@ -24,7 +24,6 @@ const Strategy = () => {
             conversation, we will adjust the appropriate cover.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {/* <div className='flex flex-col-2 gap-4'> */}
             {StrategyData.map((items, index) => (
               <div key={index} className=" items-center gap-4">
                 <span className="text-3xl sm:text-4xl font-semibold">

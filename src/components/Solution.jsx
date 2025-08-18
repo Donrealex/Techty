@@ -25,11 +25,11 @@ const Solution = () => {
         />
       </div>
 
-      {/* Image & Card Section */}
+      {/* Image  */}
       <div className="relative w-full lg:w-1/2 flex justify-center">
         <img src={guy} alt="Guy" className="w-full max-w-md" />
 
-        {/* Floating Card */}
+
         <div className="absolute bottom-6 lg:right-[300px] md:right-[10px] right-0  bg-white rounded-2xl p-4 shadow-md w-[90%] sm:w-60 ">
           <h1 className="text-2xl font-bold">$946K</h1>
           <p className="text-sm text-gray-600">
