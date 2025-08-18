@@ -29,7 +29,6 @@ const Footer = () => {
 
       {/* Footer Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 w-full max-w-6xl">
-        {/* Logo & Social Icons */}
         <div className="flex flex-col gap-5 items-center lg:items-start">
           <NavLink to="/">
             <img
@@ -39,21 +38,38 @@ const Footer = () => {
             />
           </NavLink>
           <div className="grid grid-cols-4 gap-2">
-            <NavLink to="/x.com/donrealex1">
+            <NavLink
+              to="https://x.com/donrealex1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaXTwitter className="text-2xl" />
             </NavLink>
-            <NavLink to="/www.facebook.com/donrealex1">
+            <NavLink
+              to="https://www.facebook.com/donrealex1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaFacebookF className="text-2xl" />
             </NavLink>
-            <NavLink to="/instagram.com/donrealex001">
+            <NavLink
+              to="https://instagram.com/donrealex001"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaInstagram className="text-2xl" />
             </NavLink>
-            <NavLink to="/github.com/donrealex">
+            <NavLink
+              to="https://github.com/donrealex"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <IoLogoGithub className="text-2xl" />
             </NavLink>
           </div>
           <p className="text-sm  mt-4">
-            Copyright © {new Date().getFullYear()} Techty.<br/> All Rights Reserved
+            Copyright © {new Date().getFullYear()} Techty.
+            <br /> All Rights Reserved
           </p>
         </div>
 
@@ -95,8 +111,9 @@ const Footer = () => {
               className="w-full px-4 py-3 pr-28 ring ring-[#F0F8FF] rounded-lg"
             />
             <Button
-              onClick={printMsg}
-              className="absolute top-1/2 right-2 -translate-y-1/2 bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D09A] transition duration-300"
+              func={printMsg}
+              name="join"
+              style="absolute top-1/2 right-2 -translate-y-1/2 bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D09A] transition duration-300"
             >
               Join
             </Button>
