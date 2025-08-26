@@ -5,6 +5,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { NavLink } from 'react-router-dom';
+import techtyIcon from "../assets/techtyIcon.svg"
 
 
 const Footer = ({style}) => {
@@ -32,7 +33,7 @@ const Footer = ({style}) => {
         <div className="flex flex-col gap-5 items-center lg:items-start">
           <NavLink to="/">
             <img
-              src="/techtyIcon.svg"
+              src={techtyIcon}
               alt="Techty Icon"
               className="w-24"
             />
