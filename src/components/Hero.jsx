@@ -5,17 +5,14 @@ import heroImg from "../assets/heroImg.svg";
 const Hero = () => {
   const printMsg = () => {};
   return (
-    
-    <div className=" container h-screen bg-[#F0F8FF] items-center justify-center font-space gap-10 h[1024px]">
+    <div className=" container h-screen bg-[#F0F8FF] pt-20 mb-32 items-center justify-center font-space gap-10 h[1024px]">
       {/* HERO TEXT AND IMAGE */}
       <div className="min-h-screen bg-[#F0F8FF] flex flex-col items-center justify-center font-space gap-10 px-4 py-8 overflow-x-hidden">
-       
         <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-7xl gap-10">
-
           <div className="flex flex-col items-center lg:items-start justify-center w-full lg:w-3/5 p-4 lg:p-12 gap-5 text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold">
-              Secure <span className="text-[#28D08A]">business</span> <br />with
-              Techty security.
+              Secure <span className="text-[#28D08A]">business</span> <br />
+              with Techty security.
             </h1>
             <p className="text-base sm:text-lg">
               We have considered our solutions to support every stage of your
@@ -35,17 +32,19 @@ const Hero = () => {
               />
             </div>
           </div>
-          
+
           <div className="flex items-center justify-center w-full lg:w-2/5">
             <img src={heroImg} alt="Hero" className="w-full h-auto max-w-md" />
           </div>
         </div>
         {/*Line */}
         <div className="my-10 h-px w-full max-w-6xl bg-gray-300"></div>
-        
+
         <div className="p-10 text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <p className="font-bold text-2xl ">
-            Thousands of<br />businesses use Techty
+            Thousands of
+            <br />
+            businesses use Techty
           </p>
 
           <div className="overflow-hidden whitespace-nowrap w-[750px] ">

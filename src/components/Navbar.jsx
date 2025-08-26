@@ -16,7 +16,7 @@ const Navbar = ({style}) => {
 
   return (
     <nav
-      className={`${style} container fixed z-20 h-20 w-full flex items-center justify-center p-4 md:p-14 font-space gap-10`}
+      className={`${style} container h-20 w-full flex items-center justify-center p-4 md:p-14 font-space gap-10 fixed left-16 z-50`}
     >
       <div className="container flex justify-between items-center">
         <NavLink to="/">

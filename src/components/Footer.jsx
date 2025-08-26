@@ -32,7 +32,7 @@ const Footer = ({style}) => {
         <div className="flex flex-col gap-5 items-center lg:items-start">
           <NavLink to="/">
             <img
-              src="/src/assets/techtyIcon.svg"
+              src="/techtyIcon.svg"
               alt="Techty Icon"
               className="w-24"
             />

@@ -11,7 +11,7 @@ import Updates from '../components/Updates'
 
 const Home = () => {
   return (
-    <div className="flex flex-col h-screen justify-between min-w-full CONTAINER">
+    <div className="">
       <Navbar style={"bg-[#F0F8FF]"} />
       <Hero />
       <SubHero />

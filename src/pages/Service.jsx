@@ -13,6 +13,7 @@ const Service = () => {
       <SubHero />
       <Pricing />
       <Footer style={"bg-[#495460]"} />
+     
     </div>
   );
 }

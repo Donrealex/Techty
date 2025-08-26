@@ -5,8 +5,7 @@ const AboutHero = () => {
 
 
   return (
-   
-    <section className="container font-space mx-auto bg-[#F0F8FF] py-10  md:flex flex-col md:flex-row">
+    <section className="container font-space mx-auto bg-[#F0F8FF] py-10 mt-28 md:flex flex-col md:flex-row">
       <div className="md:w-1/2 w-full h-64 md:h-full">
         <img
           src={aboutImage}
@@ -14,7 +13,7 @@ const AboutHero = () => {
           className="w-full h-full object-cover"
         />
       </div>
-   
+
       <div className="md:w-1/2 w-full p-4 md:p-8 space-y-6">
         <h2 className="text-2xl md:text-3xl font-bold">
           <span className="text-[#28D08A]">About</span>Techty
