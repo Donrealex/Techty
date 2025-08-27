@@ -22,6 +22,8 @@ const Review = () => {
   if(comments){
     comments.splice(6, comments.length)
   }
+
+ 
   return (
     <div className="container mx-auto px-4 py-8 font-space flex flex-col gap-8 items-center">
       <h1 className="text-2xl sm:text-3xl lg:text-4xl text-center font-semibold px-4">
@@ -35,7 +37,7 @@ const Review = () => {
             key={index}
             className="cursor-default hover:border-t-2 hover:border-[#28D09A] items-start scale-100 hover:scale-105 transition-transform duration-500 flex flex-col gap-4 p-6 rounded-lg shadow-md hover:shadow-[#28D09A] hover:shadow-sm bg-white"
           >
-            <img src={rating} alt="Rating" className="h-6" />
+            {/* <img src={rating} alt="Rating" className="h-6" /> */}
             <h2 className="text-sm sm:text-base font-normal text-gray-800 leading-relaxed">
               “We struggled for years to find an IT company that we could trust.
               While others would try to sell us IT solutions, we actually took
@@ -60,8 +62,8 @@ const Review = () => {
                 </p>
               </div>
             </div>
-            {/* <div className="flex items-center gap-4 mt-4">
-              <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center text-sm font-bold text-gray-900">
+            <div className="flex items-center gap-4 mt-4">
+              {/* <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center text-sm font-bold text-gray-900">
                 {(
                   comment.user.fullname
                     ?.split(" ")
@@ -69,7 +71,8 @@ const Review = () => {
                     .join("") || ""
                 ).toUpperCase()}
                   
-              </div>
+              </div> */}
+              
 
               <div>
                 <p className="text-sm font-bold uppercase text-gray-900">
@@ -82,7 +85,7 @@ const Review = () => {
                   Financial Analyst
                 </p>
               </div>
-            </div> */}
+            </div>
           </div>
         ))}
       </div>

@@ -21,11 +21,6 @@ import rateIcon from "../assets/rateIcon.svg";
 import pcIcon from "../assets/pcIcon.svg";
 import rightIcon from "../assets/rightIcon.svg";
 
-import articlePhone from "../assets/articlePhone.svg";
-import articleGuy from "../assets/articleGuy.svg";
-import articlePc from "../assets/articlePc.svg";
-
-
 export const subHeroData = [
   {
     id: 1,
@@ -155,29 +150,6 @@ export const ServiceHeroData = [
     content:
       "In the new era of technology we look in the future with certainty and pride.",
     rightArrow: rightIcon,
-  },
-];
-export const ArticlesData = [
-  {
-    img: articlePhone,
-    date: "May 05, 2023",
-    head: "5 reasons why Techty is the go- to choice for small busines",
-    content:
-      "Let us manage your IT for you so that you can get back to doing what you do best.",
-  },
-  {
-    img: articleGuy,
-    date: "May 05, 2023",
-    head: "The future is now: Explore Techty's AI-Powered tools",
-    content:
-      "Let us manage your IT for you so that you can get back to doing what you do best.",
-  },
-  {
-    img: articlePc,
-    date: "May 05, 2023",
-    head: "Cybersecurity threats in 2023: How AI can keep you protected",
-    content:
-      "Let us manage your IT for you so that you can get back to doing what you do best.",
   },
 ];
 

@@ -4,11 +4,7 @@ import About  from "./pages/About"
 import Service from "./pages/Service"
 import Blog from "./pages/Blog"
 import Contact from "./pages/Contact"
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import SubHero from './components/SubHero';
-import Footer from './components/Footer';
-import Home from './pages/Home';
+import Home from './pages/Home'
 
 
 const App = () => {

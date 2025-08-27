@@ -5,7 +5,7 @@ import Button from './Button';
 const ContactHero = () => {
      const printMsg = () => {};
   return (
-    <section className="container bg-[#F1F1F1] mt-28 font-space py-16 px-6 md:px-20">
+    <section className=" bg-[#F1F1F1] mt-28 font-space py-16 px-6 md:px-20">
       {/* Heading */}
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold">Contact Us</h2>

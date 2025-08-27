@@ -5,13 +5,13 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { NavLink } from 'react-router-dom';
-import techtyIcon from "../assets/techtyIcon.svg"
+import footerIcon from "../assets/footerIcon.svg"
 
 
 const Footer = ({style}) => {
   const printMsg = () => {};
   return (
-    <div className= {`${style} container flex flex-col  w-full text-white items-center justify-between font-space px-4 py-10`}>
+    <div className= {`${style}  flex flex-col  w-full text-white items-center justify-between font-space px-4 py-10`}>
       {/* Top Section */}
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
         <p className="font-bold text-3xl md:text-4xl">
@@ -33,9 +33,9 @@ const Footer = ({style}) => {
         <div className="flex flex-col gap-5 items-center lg:items-start">
           <NavLink to="/">
             <img
-              src={techtyIcon}
+              src={footerIcon}
               alt="Techty Icon"
-              className="w-24"
+              className="w-24 text-white"
             />
           </NavLink>
           <div className="grid grid-cols-4 gap-2">

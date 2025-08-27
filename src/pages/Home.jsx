@@ -13,14 +13,14 @@ const Home = () => {
   return (
     <div className="">
       <Navbar style={"bg-[#F0F8FF]"} />
-      <Hero />
-      <SubHero />
-      <Unleash />
-      <Solution />
-      <Strategy />
+      {/* <Hero /> */}
+      {/* <SubHero /> */}
+      {/* <Unleash /> */}
+      {/* <Solution /> */}
+      {/* <Strategy /> */}
       <Review />
       <Updates />
-      <Footer style={"bg-[#495460]"} />
+      {/* <Footer style={"bg-[#495460]"} /> */}
     </div>
   );
 }

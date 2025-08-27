@@ -15,12 +15,12 @@ const BlogHero = () => {
         </p>
       </div>
       <div className="flex md:flex-row flex-col ">
-        <div className="md:w-1/2 w-full h-64 md:h-full">
-          <img src={blogImg} alt="Blog" className="mx-auto" />
+        <div className="md:w-1/2 w-full h-full md:h-full">
+          <img src={blogImg} alt="Blog" className="rounded-lg" />
         </div>
-        <div className="text-start mt-3 bg-white md:w-1/2 w-full p-4 md:p-8 space-y-6">
-          <p className=" text-lg mb-8">May 30, 2023</p>
-          <p className="font-semibold text-4xl mb:text-2xl ">
+        <div className="text-start  gap-5 lg:space-y-8 bg-white md:w-1/2 p-5 w-full md:p-8 rounded-lg">
+          <p className=" text-lg ">May 30, 2023</p>
+          <p className="font-semibold text-4xl mb:text-2xl pb-2">
             5 reasons why Techty is the go-to choice for small business.
           </p>
           <p>
