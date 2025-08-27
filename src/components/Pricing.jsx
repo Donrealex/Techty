@@ -5,7 +5,7 @@ import { CheckCircle, XCircle } from 'lucide-react';
 const Pricing = () => {
     const printMsg = () => {};
   return (
-    <section className="container font-space bg-[#F0F8FF] rounded-lg p-6 grid gap-8">
+    <section className=" font-space bg-[#F0F8FF] rounded-lg p-6 grid gap-8">
       <h2 className="text-3xl sm:text-4xl font-bold text-center">
         We have the best <span className="text-[#28D08A]">pricing</span>
         <br /> package for you

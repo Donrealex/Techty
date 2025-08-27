@@ -3,7 +3,7 @@ import founder from "../assets/founder.svg"
 
 const AboutFounder = () => {
   return (
-    <section className="container font-space  mx-auto bg-white py-10 md:flex flex-col md:flex-row">
+    <section className=" font-space  mx-auto bg-white py-5 px-3 md:flex flex-col md:flex-row">
       {/* The Text */}
       <div className="md:w-1/2 w-full p-4 md:p-8 space-y-10">
         <h2 className="text-2xl md:text-3xl font-bold">
@@ -35,7 +35,7 @@ const AboutFounder = () => {
         <img
           src={founder}
           alt="founder"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-lg"
         />
       </div>
     </section>

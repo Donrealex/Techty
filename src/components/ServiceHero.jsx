@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const ServiceHero = () => {
   return (
-    <section className="container font-space bg-[#F0F8FF]  flex flex-col items-center justify-center p-4 md:p-8 mt-28">
+    <section className=" font-space bg-[#F0F8FF]  flex flex-col items-center justify-center p-4 md:p-8 mt-28">
       <div className="text-center mb-10">
         <h1 className="text-3xl md:text-4xl font-bold">
           We provide the best <span className="text-[#28D08A]">service</span>{" "}

@@ -13,14 +13,17 @@ const Navbar = ({ style }) => {
     setNav(!nav);
   };
   return (
-   
     <nav
-      className={`${style}  h-20 w-full flex items-center justify-center font-extrabold md:p-14 font-space gap-15 fixed left16 z-50`}
+      className={`${style}  h-20 w-full flex items-center justify-center font-extrabold p-14 font-space gap-15 fixed z-50`}
     >
       <div className=" flex gap-28 items-center justify-center w-full">
         <div>
           <NavLink to="/">
-            <img src={techtyIcon} alt="Techty Icon" />
+            <img
+              src={techtyIcon}
+              alt="Techty Icon"
+              className="h-full object-contain"
+            />
           </NavLink>
         </div>
         <div className="hidden md:flex items-center justify-center gap-15">
@@ -80,7 +83,7 @@ const Navbar = ({ style }) => {
       </div>
 
       {/* Mobile menu */}
-     
+
       <div
         className={`fixed top-0 left-0 w-full max-h-screen bg-white z-40 transform transition-transform duration-500 ${
           nav ? "translate-x-0" : "translate-x-full"
@@ -148,6 +151,17 @@ const Navbar = ({ style }) => {
             >
               Contact
             </NavLink>
+          </div>
+          <div>
+            <Button
+              func={printMsg}
+              name="Request a Free Demo "
+              style={
+                "bg-black w-55 h-10 rounded-md text-white hover:bg-[#28D08A] transition duration-300 mb-10"
+              }
+            >
+              Request a Free Demo
+            </Button>
           </div>
         </div>
       </div>

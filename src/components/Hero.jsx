@@ -5,7 +5,7 @@ import heroImg from "../assets/heroImg.svg";
 const Hero = () => {
   const printMsg = () => {};
   return (
-    <div className=" container h-screen bg-[#F0F8FF] pt-20 mb-32 items-center justify-center font-space gap-10 h[1024px]">
+    <div className="  h-screen bg-[#F0F8FF] pt-20 mb-32 items-center justify-center font-space gap-10 h[1024px]">
       {/* HERO TEXT AND IMAGE */}
       <div className="min-h-screen bg-[#F0F8FF] flex flex-col items-center justify-center font-space gap-10 px-4 py-8 overflow-x-hidden">
         <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-7xl gap-10">
