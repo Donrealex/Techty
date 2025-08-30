@@ -7,7 +7,7 @@ import BlogData from '../components/BlogData';
 const Blog = () => {
   return (
     <div className="flex flex-col h-screen justify-between min-w-full">
-      <Navbar className="bg-white" />
+      <Navbar style={"bg-white"}/>
       <BlogHero />
       <BlogData />
       <Footer style={"bg-[#6F7681]"} />

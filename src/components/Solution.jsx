@@ -3,11 +3,10 @@ import Button from "./Button";
 import guy from "../assets/guy.PNG";
 
 const Solution = () => {
-  const printMsg = () => {};
   return (
-    // RESPONSIVENES NOT PERFECT
+    
     <div className="container relative font-space bg-white px-4 py-10 flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto gap-10 h-screen">
-      {/* Text Section */}
+    
       <div className="flex flex-col items-start justify-center gap-5 w-full lg:w-1/2">
         <h1 className="text-3xl md:text-4xl font-bold leading-snug">
           Our most priority is to provide the effective
@@ -19,7 +18,6 @@ const Solution = () => {
           to launch in a matter of minutes. Try uploading your own for sale.
         </p>
         <Button
-          func={printMsg}
           name="Request a Free Demo"
           style="bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D08A] w-full sm:w-[242px] transition duration-300"
         />
@@ -30,14 +28,13 @@ const Solution = () => {
         <img src={guy} alt="Guy" className="w-full max-w-md" />
 
 
-        <div className="absolute bottom-6 lg:right-[300px] md:right-[10px] right-0  bg-white rounded-2xl p-4 shadow-md w-[90%] sm:w-60 ">
+        <div className="absolute bottom-6 lg:right-[300px] md:left-[120px] right-[50px]  bg-white rounded-2xl p-4 shadow-md w-[90%] sm:w-60 ">
           <h1 className="text-2xl font-bold">$946K</h1>
           <p className="text-sm text-gray-600">
             As a translator, I want to integrate crowdin webhook to notify
             translators about changed strings
           </p>
           <Button
-            func={printMsg}
             name="Refactoring"
             style="bg-[#DDBF00] rounded-md text-[#B16D00] px-4 py-2 hover:bg-yellow-300 w-[108px] transition duration-300"
           />

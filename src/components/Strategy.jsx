@@ -4,8 +4,7 @@ import { StrategyData } from '../constants/data';
 
 const Strategy = () => {
   return (
-  
-    <div className="container mx-auto px-4 py-8 bg-black text-white font-space">
+    <div className=" mx-auto px-4 py-8 bg-black text-white font-space">
       <div className="flex flex-col lg:flex-row items-center gap-8">
         <img
           src={screenshot}
@@ -24,19 +23,17 @@ const Strategy = () => {
             conversation, we will adjust the appropriate cover.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {StrategyData.map((items, index) => (
-              <div key={index} className=" items-center gap-4">
+            {StrategyData.map((items) => (
+              <div className="items-center justify-center flex flex-col">
                 <span className="text-3xl sm:text-4xl font-semibold">
                   {items.num}
                 </span>
-                <div>
                   <h2 className="text-lg font-medium">{items.head}</h2>
                   <img
                     src={items.icon}
                     alt="rating icon"
                     className="h-6 mt-2"
                   />
-                </div>
               </div>
             ))}
           </div>

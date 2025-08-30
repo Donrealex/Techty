@@ -3,7 +3,7 @@ import React from 'react'
 import Button from './Button';
 
 const ContactHero = () => {
-     const printMsg = () => {};
+     
   return (
     <section className=" bg-[#F1F1F1] mt-28 font-space py-16 px-6 md:px-20">
       {/* Heading */}
@@ -83,7 +83,6 @@ const ContactHero = () => {
               className="w-full border border-gray-200 bg-[#F1F1F1] rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#28D08A]"
             ></textarea>
             <Button
-              func={printMsg}
               name="Send Message"
               style="bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D09A] transition duration-300"
             />

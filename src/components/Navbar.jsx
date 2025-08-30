@@ -7,7 +7,7 @@ import { IoMenuSharp } from "react-icons/io5";
 import techtyIcon from "../assets/techtyIcon.svg";
 
 const Navbar = ({ style }) => {
-  const printMsg = () => { };
+ 
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
@@ -69,7 +69,7 @@ const Navbar = ({ style }) => {
           </NavLink>
           <div>
             <Button
-              func={printMsg}
+             
               name="Request a Free Demo "
               style={
                 "bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D08A] transition duration-300"
@@ -154,7 +154,6 @@ const Navbar = ({ style }) => {
           </div>
           <div>
             <Button
-              func={printMsg}
               name="Request a Free Demo "
               style={
                 "bg-black w-55 h-10 rounded-md text-white hover:bg-[#28D08A] transition duration-300 mb-10"

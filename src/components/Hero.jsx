@@ -1,11 +1,13 @@
 import React from "react";
 import Button from "./Button";
 import heroImg from "../assets/heroImg.svg";
+import Marquee from "react-fast-marquee";
+
 
 const Hero = () => {
-  const printMsg = () => {};
+ 
   return (
-    <div className="  h-screen bg-[#F0F8FF] pt-20 mb-32 items-center justify-center font-space gap-10 h[1024px]">
+    <div className="  hscreen bg-[#F0F8FF] pt-20 mb-32 items-center justify-center font-space gap-10 h[1024px]">
       {/* HERO TEXT AND IMAGE */}
       <div className="min-h-screen bg-[#F0F8FF] flex flex-col items-center justify-center font-space gap-10 px-4 py-8 overflow-x-hidden">
         <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-7xl gap-10">
@@ -21,12 +23,10 @@ const Hero = () => {
             </p>
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4">
               <Button
-                func={printMsg}
                 name="Request a Free Demo"
                 style="bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D09A] transition duration-300"
               />
               <Button
-                func={printMsg}
                 name="Hire an expert"
                 style="bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D08A] transition duration-300"
               />
@@ -39,36 +39,36 @@ const Hero = () => {
         </div>
         {/*Line */}
         <div className="my-10 h-px w-full max-w-6xl bg-gray-300"></div>
-
+        {/* MARQUEE */}
         <div className="p-10 text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <p className="font-bold text-2xl ">
             Thousands of
             <br />
             businesses use Techty
           </p>
-
-          <div className="overflow-hidden whitespace-nowrap w-[750px] ">
-            <div className="inline-block animate-scroll">
-              <div className="flex gap-10 w-full">
-                <img src="/src/assets/Logo.svg" alt="logo" className="h-16" />
-                <img
-                  src="/src/assets/LogoIipsum.svg"
-                  alt="logoIpsium"
-                  className="h-16"
-                />
-                <img
-                  src="/src/assets/Ipsum.svg"
-                  alt="Ipsium"
-                  className="h-16"
-                />
-                <img
-                  src="/src/assets/LogoRound.svg"
-                  alt="LogoRound"
-                  className="h-16"
-                />
-              </div>
-            </div>
-          </div>
+          <Marquee speed={100}  pauseOnHover={true} className="col-span-2 ">
+            <img
+              src="/src/assets/LogoIipsum.svg"
+              alt="marquee1"
+              className="object-cover w-auto h-auto pr-10"
+            />
+            <img
+              src="/src/assets/Ipsum.svg"
+              alt="marquee1"
+              className="object-cover w-auto h-auto pr-10"
+            />
+            <img
+              src="/src/assets/LogoRound.svg"
+              alt="marquee1"
+              className="object-cover w-auto h-auto pr-10"
+            />
+            <img
+              src="/src/assets/Logo.svg"
+              alt="marquee1"
+              className="object-cover w-auto h-auto "
+            />
+          </Marquee>
+          
         </div>
       </div>
     </div>

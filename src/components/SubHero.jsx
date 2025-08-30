@@ -13,12 +13,11 @@ const SubHero = () => {
     const [second, setSecond] = useState(false);
     const [third, setThird] = useState(false);
 
-    const printMsg = () => {};
 
   return (
     
 
-    <section className=" container flex flex-col font-space mt-10 w-full px-4 sm:px-6 lg:px-10">
+    <section className=" flex flex-col font-space mt-10 w-full px-4 sm:px-6 lg:px-10">
       <div className="flex items-center justify-center py-10 sm:py-16">
         <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
           Empower your business
@@ -107,7 +106,6 @@ const SubHero = () => {
               </div>
               <div>
                 <Button
-                  func={printMsg}
                   name="Request a Free Demo"
                   style="bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D09A] transition duration-300"
                 />

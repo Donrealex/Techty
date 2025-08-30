@@ -3,7 +3,6 @@ import Button from './Button';
 import { CheckCircle, XCircle } from 'lucide-react';
 
 const Pricing = () => {
-    const printMsg = () => {};
   return (
     <section className=" font-space bg-[#F0F8FF] rounded-lg p-6 grid gap-8">
       <h2 className="text-3xl sm:text-4xl font-bold text-center">
@@ -57,7 +56,6 @@ const Pricing = () => {
             $20 <span className="text-lg font-normal">/hour</span>
           </h3>
           <Button
-            func={printMsg}
             name="Hire an Expert"
             style="bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D08A] transition duration-300"
           >
@@ -112,7 +110,6 @@ const Pricing = () => {
             $99 <span className="text-lg font-normal">/hour</span>
           </h3>
           <Button
-            func={printMsg}
             name="Hire an Expert"
             style="bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D08A] transition duration-300"
           >

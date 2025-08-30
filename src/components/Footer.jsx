@@ -9,7 +9,7 @@ import footerIcon from "../assets/footerIcon.svg"
 
 
 const Footer = ({style}) => {
-  const printMsg = () => {};
+ 
   return (
     <div className= {`${style}  flex flex-col  w-full text-white items-center justify-between font-space px-4 py-10`}>
       {/* Top Section */}
@@ -19,7 +19,6 @@ const Footer = ({style}) => {
           <br /> to the next level?
         </p>
         <Button
-          func={printMsg}
           name="Request a Free Demo"
           style="bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D09A] transition duration-300"
         />
@@ -112,7 +111,6 @@ const Footer = ({style}) => {
               className="w-full px-4 py-3 pr-28 ring ring-[#F0F8FF] rounded-lg"
             />
             <Button
-              func={printMsg}
               name="join"
               style="absolute top-1/2 right-2 -translate-y-1/2 bg-black rounded-md text-white px-4 py-2 hover:bg-[#28D09A] transition duration-300"
             >

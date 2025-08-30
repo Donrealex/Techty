@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Button = ({ name, style, func }) => {
+const Button = ({ name, style,  }) => {
   return (
     <div
-      onClick={func}
+      // onClick={func}
       className={` flex items-center justify-center p-6 cursor-pointer ${style} `}
     >
       {name}
