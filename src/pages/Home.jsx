@@ -13,7 +13,7 @@ import Updates from '../components/Updates'
 
 const Home = () => {
   return (
-    <div className="">
+    <div >
       <Navbar style={"bg-[#F0F8FF]"} />
       <Hero />
       <SubHero />
